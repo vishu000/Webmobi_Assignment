@@ -1,0 +1,339 @@
+body {
+  overflow-x: hidden;
+}
+
+.design-image1-1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-300%, 60%);
+}
+.design-image1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(340%, 107%);
+}
+
+.design-image2 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-280%, 320%);
+}
+
+.design-image3 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(330%, 420%);
+}
+
+.navbar {
+  background-color: #ffffff; 
+  background-size: cover;
+  background-position: center;
+  height: 60px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar {
+  background-color: #ffffff;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+  
+.main-section {
+  background-color: rgb(8, 62, 126); 
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 50px 0;
+}
+.main-section .container {
+  padding: 20px;
+}
+.main-section h2 {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.main-section p {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.main-section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.our-solution {
+  background-image: url('../images/Rectangle 9.png');
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  padding: 50px 0;
+}
+
+.our-solution .container {
+  padding: 20px;
+}
+
+.our-solution h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: rgb(8, 62, 126);
+}
+
+.our-solution p {
+  color: rgb(8, 62, 126);
+  font-size: 18px;
+  margin-bottom: 20px;
+  
+}
+
+.quick-turnaround {
+  background-image: url('../images/Rectangle 12.png');
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0;
+}
+
+.quick-turnaround .container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px; 
+}
+
+.quick-turnaround h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: rgb(8, 62, 126);
+}
+
+.quick-turnaround .row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.quick-turnaround .col-md-4 {
+  flex: 0 0 auto;
+  max-width: wrap;
+  padding: 15px;
+  text-align: center;
+}
+
+.quick-turnaround .box {
+  background-color: rgb(29, 102, 191);
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.quick-turnaround .logo {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.quick-turnaround h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.quality-assurance {
+  background-image: url('../images/Rectangle 8.png');
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.quality-assurance .container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center; 
+  padding: 20px;
+}
+
+.quality-assurance h2 {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.quality-assurance .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.quality-assurance .col-md-4 {
+  flex: 0 0 100%;
+  max-width: 70%;
+  padding: 15px;
+}
+
+.quality-assurance .box {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.quality-assurance h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(8, 62, 126);
+}
+
+.quality-assurance p {
+  font-size: 20px;
+  text-align: left;
+  color: rgb(8, 62, 126);
+}
+
+.our-advantages {
+  background-color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.our-advantages .container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.our-advantages h2 {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: rgb(8, 62, 126);
+}
+
+.our-advantages .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.our-advantages .col-md-4 {
+  flex: 0 0 100%;
+  width: 100%;
+  padding: 15px;
+  align-items: center;
+}
+
+.our-advantages .box {
+  background-color: #1f3a93;
+  border-radius: 10px;
+  padding: 30px;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.our-advantages .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 150px;
+  height: auto;
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.our-advantages h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.contact-section {
+  background-color: #1e42b8;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.contact-section .container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center; 
+  padding: 20px;
+}
+
+.contact-section h2 {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.contact-section p {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.contact-section .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #1e42b8;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .contact-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
